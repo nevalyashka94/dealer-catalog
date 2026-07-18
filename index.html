@@ -1,29 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог дилеров</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dealer Catalog</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<header class="topbar">
+  <div class="logo">
+      <div class="logo-icon">🚗</div>
 
-    <h1>🚗 Каталог дилеров</h1>
+      <div class="logo-text">
+          <h1>Dealer Catalog</h1>
+          <span>Автомобильные дилеры</span>
+      </div>
+  </div>
 
+  <button id="themeToggle" class="theme-button" aria-label="Сменить тему">
+      <span id="themeIcon">🌙</span>
+  </button>
+</header>
+
+<main class="container">
+
+<section class="hero">
+    <h2>Каталог официальных дилеров</h2>
+    <p>Поиск по автомобильным брендам</p>
+</section>
+
+<section class="search-box">
     <input
-        type="text"
         id="search"
-        placeholder="Введите марку автомобиля..."
-    >
+        type="text"
+        placeholder="Начните вводить название бренда..."
+        autocomplete="off">
+</section>
 
-    <div id="catalog"></div>
+<section class="stats">
+    <div class="stat-card">
+        <span class="stat-title">Брендов</span>
+        <span id="brandCount" class="stat-number">0</span>
+    </div>
 
-</div>
+    <div class="stat-card">
+        <span class="stat-title">Дилеров</span>
+        <span id="dealerCount" class="stat-number">0</span>
+    </div>
+</section>
+
+<section id="catalog" class="catalog"></section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 Dealer Catalog • GitHub Pages</p>
+</footer>
 
 <script src="script.js"></script>
 

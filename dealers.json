@@ -1,0 +1,920 @@
+[
+  {
+    "brand": "AUDI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Audi Авилон"
+    ]
+  },
+  {
+    "brand": "AURUS",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "AURUS Панавто",
+      "Авилон Aurus"
+    ]
+  },
+  {
+    "brand": "AVATR",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Avatr Новорижский"
+    ]
+  },
+  {
+    "brand": "BAIC",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "BAIC АВТОРУСЬ ПОДОЛЬСК",
+      "BAIC Зеленоград",
+      "Baic FAVORIT MOTORS",
+      "Baic Favorit Motors Ленинский",
+      "Baic Major Новорижский",
+      "Baic Major Юг",
+      "Baic АВИЛОН",
+      "АвтоГЕРМЕС BAIC МКАД",
+      "АвтоСпецЦентр BAIC Марьино",
+      "Кунцево BAIC",
+      "РОЛЬФ BAIC Алтуфьево",
+      "СИМ BAIC"
+    ]
+  },
+  {
+    "brand": "BELGEE",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Belgee Автомир Байкальская (6649 Белджи Москва Новые ТСК Байкальская Джили [617] tskid88)",
+      "Belgee Автомир Химки (6650 Белджи Москва Новые ТСК Химки [87] tskid42)",
+      "Belgee Автомир Ярославка (6645 Белджи Москва Новые ТСК Ярославка [98] tskid54)",
+      "Major Belgee Магистральная",
+      "АвтоГЕРМЕС Belgee Балашиха",
+      "АвтоГЕРМЕС Belgee МКАД"
+    ]
+  },
+  {
+    "brand": "BENTLEY",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Bentley Москва"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "BMW Автодом Внуково",
+      "АВТОDOM BMW Внуково",
+      "АВТОDОМ BMW МКАД 51",
+      "АВТОДОМ BMW Motorrad",
+      "Авто-Авангард BMW",
+      "Автодом BMW Зорге",
+      "БалтАвтоТрейд-М BMW Рублёвка",
+      "БорисХоф BMW Север",
+      "Официальный дилер BMW / BMW Авилон",
+      "РОЛЬФ Премиум Вешки BMW",
+      "РОЛЬФ Премиум Якиманка BMW",
+      "РОЛЬФ Химки BMW"
+    ]
+  },
+  {
+    "brand": "CHANGAN",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "CHANGAN AVILON",
+      "Changan FAVORIT MOTORS МКАД",
+      "Changan FAVORIT MOTORS Север",
+      "Changan FAVORIT MOTORS Юг",
+      "Changan FAVORIT MOTORS Юго-Восток",
+      "Changan Центр Major Запад",
+      "Changan Центр АВТОРУСЬ Энтузиастов",
+      "Changan Центр Автодом Алтуфьево",
+      "Changan Центр на Дмитровском (4415 Чанган Москва Новые ТСК Дмитровка Омода [178] tskid78)",
+      "Changan Центр на Щелковском (4283 Чанган Москва Новые ТСК Байкальская Джили [617] tskid88)",
+      "Major Changan Магистральная",
+      "АвтоГЕРМЕС CHANGAN Рябиновая",
+      "Авторусь Changan Мытищи"
+    ]
+  },
+  {
+    "brand": "CHERY",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "CHERY ИЗМАЙЛОВО",
+      "CHERY ЦЕНТР АВИЛОН",
+      "CHERY ЦЕНТР БОРИСХОФ ВНУКОВО",
+      "CHERY ЦЕНТР У СЕРВИС",
+      "CHERY Центр Кунцево",
+      "Chery Car Village M1",
+      "Chery EXPOCAR МКАД Юг",
+      "Chery EXPOCAR Москва",
+      "Chery Автодин Зеленоград",
+      "Chery Автомир Щелковская (9445 Чери Москва Новые ТСК Щелковка [262] tskid30)",
+      "Chery Бизнес Кар Каширский",
+      "Chery Нижегородец Левобережный",
+      "Chery Нижегородец Ногинск",
+      "Chery РОЛЬФ Дмитровка",
+      "Chery Ростокино",
+      "Chery Центр Fresh Auto Левобережный",
+      "Chery Центр ВИСТ-Актив",
+      "DELIVERY CAR - онлайн-дилер бренда Chery",
+      "Major Chery Новорижский",
+      "Major Chery Тушино",
+      "АвтоГЕРМЕС Chery",
+      "АвтоГЕРМЕС Chery Рязанка",
+      "АвтоГЕРМЕС Chery Сормовская",
+      "АвтоСпецЦентр Chery Москворечье",
+      "АвтоСпецЦентр Chery Химки",
+      "Автолайт CHERY",
+      "Автомир Chery Озерная (3674 Чери Москва Новые ТСК Озерная [163] tskid33)",
+      "Авторусь Подольск Chery",
+      "БалтАвтоТрейд Chery",
+      "РОЛЬФ Центр Chery",
+      "ТЕХИНКОМ [ CHERY ]",
+      "ТоргМаш CHERY Север"
+    ]
+  },
+  {
+    "brand": "CITROEN",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Citroёn Кунцево",
+      "ТЕХИНКОМ Citroen"
+    ]
+  },
+  {
+    "brand": "DONGFENG",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "AA Dongfeng",
+      "DONGFENG Автомир Люблино (6672 Дунфэн Москва Новые ТСК Люблино [161] tskid18)",
+      "DONGFENG Измайлово",
+      "DONGFENG Кунцево",
+      "Dongfeng FAVORIT MOTORS",
+      "Dongfeng Марс Моторс",
+      "Авилон DONGFENG",
+      "АвтоГЕРМЕС DONGFENG",
+      "БорисХоф DongFeng",
+      "ТоргМаш DONGFENG Юг"
+    ]
+  },
+  {
+    "brand": "EVOLUTE",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "EVOLUTE AA Москва",
+      "Evolute FAVORIT MOTORS",
+      "MAJOR EVOLUTE   Новая Рига",
+      "БорисХоф EVOLUTE",
+      "РОЛЬФ Ясенево Evolute"
+    ]
+  },
+  {
+    "brand": "EXEED",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "EXEED ЦЕНТР АВИЛОН Волгоградка",
+      "EXEED ЦЕНТР АВИЛОН ЛЕГЕНДА",
+      "EXEED ЦЕНТР АВИЛОН Легенда Trade",
+      "EXEED ЦЕНТР АВТОМАШ",
+      "EXEED ЦЕНТР АВТОСПЕЦЦЕНТР ДУБРОВКА",
+      "EXEED ЦЕНТР АВТОСПЕЦЦЕНТР ХИМКИ",
+      "EXEED ЦЕНТР ИЗМАЙЛОВО",
+      "EXEED ЦЕНТР КУНЦЕВО",
+      "EXEED ЦЕНТР НИЖЕГОРОДЕЦ КРАСНОЗНАМЕНСК",
+      "EXEED ЦЕНТР РОЛЬФ ВЕШКИ",
+      "EXEED ЦЕНТР У СЕРВИС+ ЮГ",
+      "EXEED ЦЕНТР ФРЕШ АВТО ЛЕВОБЕРЕЖНЫЙ",
+      "EXEED Центр Автодом Варшавка",
+      "EXEED Центр БорисХоф Внуково",
+      "EXEED Центр БорисХоф Магистральная",
+      "EXEED Центр Корс Коломна",
+      "EXEED Центр Мэйджор Новая Рига",
+      "EXEED Центр Мэйджор Сокольники",
+      "EXEED Центр Мэйджор Строгино",
+      "EXEED Центр Мэйджор Юго-Восток",
+      "EXEED Центр Фаворит Моторс Север",
+      "Авторусь Exeed Лосиный остров",
+      "Авторусь Подольск Exeed",
+      "РОЛЬФ Звезда столицы Каширка Exeed"
+    ]
+  },
+  {
+    "brand": "FAW",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "FAW FAVORIT MOTORS",
+      "FAW FAVORIT MOTORS МКАД",
+      "FAW Авилон",
+      "FAW ЦЕНТР АВАНТА",
+      "FAW ЦЕНТР КУНЦЕВО",
+      "FAW ЦЕНТР ЛЮБЕРЦЫ",
+      "FAW Центр Автомир (6673 Фав Москва Новые ТСК Новорязанка [155] tskid31)",
+      "Faw Центр Санрайз Групп",
+      "АвтоГЕРМЕС FAW Сормовская",
+      "АвтоСпецЦентр FAW Север",
+      "Автомир FAW Балашиха (4722 ФАВ Москва новые ТСК Балашиха [194] tskid51)",
+      "ТЕХИНКОМ [ FAW ] МКАД 14 км.",
+      "ТЕХИНКОМ [ FAW ] Химки"
+    ]
+  },
+  {
+    "brand": "FERRARI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Ferrari Moscow"
+    ]
+  },
+  {
+    "brand": "GAC",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "GAC MOTOR Кунцево",
+      "GAC Major Новорижский",
+      "GAC Major Сокольники",
+      "GAC АВИЛОН",
+      "GAC АВТОРУСЬ",
+      "GAC Автодом Сити",
+      "GAC Автомир Химки (9317 ГАК Москва Новые ТСК Химки [87] tskid42)",
+      "GAC БИЗНЕС КАР Битца",
+      "GAC БИЗНЕС КАР Левобережный",
+      "GAC БИЗНЕС КАР Серебряный Бор",
+      "GAC Марс Моторс",
+      "GAC ОБУХОВ Внуково",
+      "АВТОДОМ GAC Алтуфьево",
+      "АВТОДОМ GAC Запад",
+      "Автолайт GAC",
+      "Петровский GAC",
+      "Техинком GAC",
+      "ТоргМаш GAC Юг"
+    ]
+  },
+  {
+    "brand": "GEELY",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "GEELY CAR VILLAGE M1",
+      "GEELY FAVORIT MOTORS Север",
+      "GEELY АТЦ Кунцево",
+      "GEELY АвтоСпецЦентр Дубровка",
+      "GEELY У Сервис+ Башиловская",
+      "Geely FAVORIT MOTORS Восток",
+      "Geely Favorit Motors Семеновская",
+      "Geely Major Сокольники",
+      "Geely Автодин ЗЕЛЕНОГРАД",
+      "Geely БалтАвтоТрейд",
+      "Geely БорисХоф Сити",
+      "Geely Каширский",
+      "Geely КорсГрупп Коломна",
+      "Geely Лосиный остров",
+      "Geely Нижегородец Ногинск",
+      "Geely Рублевский",
+      "Geely Центр Люберцы",
+      "Major GEELY МКАД 47 км",
+      "Major Geely МКАД 18",
+      "Major Geely Новая Рига",
+      "Major Север Geely Дмитровка",
+      "Авилон Geely",
+      "Авилон Белая Дача Geely",
+      "АвтоГЕРМЕС Geely Балашиха",
+      "АвтоГермес Geely",
+      "АвтоСпецЦентр GEELY Каширка",
+      "Автомир Geely Байкальская (3197 Джили Москва Новые ТСК Байкальская Джили [617] tskid88)",
+      "Автомир Geely Москва (4155 Джили Москва новые ТСК Химки [87] tskid42)",
+      "Автомир Geely Ярославка (3023 Джили Москва Новые ТСК Ярославка [98] tskid54)",
+      "Автопорт Geely",
+      "КорсГрупп Geely Серпухов",
+      "У Сервис+ Geely Симферопольское"
+    ]
+  },
+  {
+    "brand": "GENESIS",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Genesis Major Новорижский",
+      "Genesis Шереметьево Центр",
+      "АВИЛОН Genesis",
+      "Авилон Genesis",
+      "БорисХоф Genesis"
+    ]
+  },
+  {
+    "brand": "HAVAL",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "AVILON HAVAL",
+      "HAVAL PRO  Шереметьево",
+      "HAVAL PRO АВТОРУСЬ БУТОВО",
+      "Haval FAVORIT MOTORS",
+      "Haval Pro Дмитровка (9621 Хавейл ПРО Москва Новые ТСК Дмитровка Хавейл [177] tskid67)",
+      "Haval Pro Люблино (9622 Хавейл ПРО Москва Новые ТСК Люблино [161] tskid18)",
+      "Haval Авторусь Подольск",
+      "Haval Белая Дача",
+      "Haval Зеленоград",
+      "Haval КорсГрупп Серпухов",
+      "Haval Нижегородец Ногинск",
+      "Haval Нижегородец в г. Реутов",
+      "Major Haval 47км",
+      "Major Haval МКАД 18 км",
+      "Major Haval Москва Цветочный Тушино",
+      "Major Haval Новорижский",
+      "Авантайм Haval",
+      "АвтоСпецЦентр HAVAL Внуково",
+      "АвтоСпецЦентр Haval Химки",
+      "Автомир Haval Дмитровка (3156 Хавейл Москва Новые ТСК Дмитровка Хавейл [177] tskid67)",
+      "Автопассаж Haval",
+      "Авторусь Haval Лосиный Остров",
+      "БорисХоф Haval",
+      "ДАКТОР КОММУНАРКА, официальный дилер HAVAL",
+      "ДАКТОР ОТРАДНОЕ, официальный дилер HAVAL",
+      "Кунцево Haval PRO",
+      "У Сервис+ Haval"
+    ]
+  },
+  {
+    "brand": "HONDA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Honda Бутово",
+      "Honda Ленинградка",
+      "МБ-Беляево HONDA"
+    ]
+  },
+  {
+    "brand": "HONGQI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "HONGQI Панавто Запад",
+      "HONGQI Панавто Сити",
+      "Авилон Hongqi",
+      "Авилон Hongqi Легенда",
+      "МБ-Беляево Hongqi",
+      "Панавто Жуковка Hongqi"
+    ]
+  },
+  {
+    "brand": "HYUNDAI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Hyundai FAVORIT MOTORS",
+      "Hyundai Марс Моторс",
+      "Авилон-Hyundai",
+      "АвтоГЕРМЕС HYUNDAI  МКАД 44 км",
+      "АвтоГЕРМЕС Hyundai",
+      "АвтоГЕРМЕС Hyundai Балашиха",
+      "АвтоСпецЦентр Hyundai Внуково",
+      "Автомир Hyundai Дмитровка (1538 Хендэ Корея Москва Новые ТСК Дмитровка Хавейл [177] tskid67)",
+      "Автомир Hyundai Сокольники (1540 Хендэ Корея Москва Новые ТСК Байкальская Джили [617] tskid88)",
+      "БорисХоф Hyundai|Genesis (с пробегом)",
+      "РОЛЬФ Hyundai Химки",
+      "РОЛЬФ Алтуфьево Hyundai",
+      "РОЛЬФ Сити Hyundai",
+      "РОЛЬФ Химки Hyundai",
+      "РОЛЬФ Юг Hyundai",
+      "Рольф Сити Hyundai"
+    ]
+  },
+  {
+    "brand": "INFINITI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Infiniti У Сервис+",
+      "Major Infiniti Новорижский",
+      "У Сервис + INFINITI Ярославское ш"
+    ]
+  },
+  {
+    "brand": "JAC",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "JAC Автомир Балашиха (6380 Джак Москва Новые ТСК Балашиха [194] tskid51)",
+      "JAC Автомир Дмитровка (6360 Джак Москва Новые ТСК Дмитровка Омода [178] tskid78)",
+      "JAC Волгоградка",
+      "MAJOR JAC Строгино",
+      "АвтоГЕРМЕС JAC МКАД",
+      "АвтоГЕРМЕС JAC Сормовская",
+      "Автолайт-JAC Motors",
+      "Автомир JAC Москва (5250 Джак Москва Новые ТСК Новорязанка [155] tskid31)",
+      "ТЕХИНКОМ JAC"
+    ]
+  },
+  {
+    "brand": "JAECOO",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "JAECOO - Автолайт",
+      "JAECOO CAR VILLAGE",
+      "JAECOO АВИЛОН",
+      "JAECOO АВТОДОМ Внуково",
+      "JAECOO АВТОПРЕСТУС",
+      "JAECOO Автодин Зеленоград",
+      "JAECOO Автомир Дмитровка (6643 Джейку Москва Новые ТСК Дмитровка Омода [178] tskid78)",
+      "JAECOO Автомир Крылатское (6654 Джейку Москва Новые ТСК Крылатское [667] tskid79)",
+      "JAECOO Автомир Ярославка (6644 Джейку Москва Новые ТСК Ярославка [98] tskid54)",
+      "JAECOO БИЗНЕС КАР Каширский",
+      "JAECOO ДЕАЛОН МКАД СЕВЕР",
+      "JAECOO Измайлово",
+      "JAECOO Корс Коломна",
+      "JAECOO Москва",
+      "JAECOO Мэйджор МКАД 18",
+      "JAECOO Мэйджор МКАД 47",
+      "JAECOO Мэйджор Цветочный",
+      "JAECOO РОЛЬФ Химки",
+      "JAECOO У Сервис+",
+      "Jaecoo Автопорт",
+      "Jaecoo Авторусь Бутово",
+      "Jaecoo Авторусь Лосиный остров",
+      "Jaecoo Авторусь Подольск",
+      "Jaecoo Кунцево",
+      "Jaecoo Нижегородец Ногинск",
+      "Jaecoo Нижегородец Реутов",
+      "БалтАвтоТрейд JAECOO",
+      "РОЛЬФ Ясенево Jaecoo",
+      "ТЕХИНКОМ JAECOO"
+    ]
+  },
+  {
+    "brand": "JAGUAR",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "РОЛЬФ Ясенево Jaguar"
+    ]
+  },
+  {
+    "brand": "JETOUR",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "GN service Jetour",
+      "JETOUR FAVORIT MOTORS",
+      "JETOUR АВТОРУСЬ БУТОВО",
+      "JETOUR АВТОРУСЬ Ленинградка",
+      "JETOUR АВТОРУСЬ ПОДОЛЬСК",
+      "JETOUR Авилон Автозаводская",
+      "JETOUR Авилон Мытищи",
+      "JETOUR ДЦ Волгоградка",
+      "JETOUR Измайлово",
+      "JETOUR КЛЮЧАВТО Люберцы",
+      "JETOUR КОРС КОЛОМНА",
+      "JETOUR Кунцево",
+      "JETOUR Нижегородец Котельники",
+      "JETOUR ТОРГМАШ-Юг Москва",
+      "JETOUR Тауэр-Авто",
+      "JETOUR У Сервис+ Север",
+      "Jetour Major МКАД 47 км",
+      "Jetour Автомир (6641 Джетур Москва Новые ТСК Варшавка [125] tskid9)",
+      "Jetour Новорижский",
+      "Jetour Обухов",
+      "Jetour СИМ Москва",
+      "Major Jetour МКАД 18 км",
+      "АвтоСпецЦентр Jetour Внуково",
+      "ТЕХИНКОМ Jetour"
+    ]
+  },
+  {
+    "brand": "JETTA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "JETTA Кунцево",
+      "Major Jetta Новорижский",
+      "АВИЛОН JETTA",
+      "АвтоГЕРМЕС Jetta Сормовская",
+      "АвтоСпецЦентр JETTA Север",
+      "Автомир Jetta Новорязанка (6674 Джетта Москва Новые ТСК Новорязанка [155] tskid31)",
+      "РОЛЬФ Jetta Москва",
+      "ТЕХИНКОМ [ Jetta ]"
+    ]
+  },
+  {
+    "brand": "JLR",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "JLR ТЦ Кунцево"
+    ]
+  },
+  {
+    "brand": "KAIYI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "KAIYI | PELETON",
+      "KAIYI Автопрестус",
+      "KAIYI ИнтерАвто",
+      "Kaiyi Favorit Motors",
+      "Kaiyi Центр АВИЛОН",
+      "KaiyiKorsGroupKolomna",
+      "Major Kaiyi Новорижский",
+      "АвтоГермес KAIYI ш.Энтузиастов",
+      "АвтоСпецЦентр KAIYI Марьино",
+      "Зеленоград KAIYI",
+      "Кунцево Kaiyi",
+      "РОЛЬФ Kaiyi"
+    ]
+  },
+  {
+    "brand": "KIA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "KIA Авилон",
+      "KIA У Сервис+ Подольск",
+      "Kia Центр  Волгоградка.",
+      "Kia Центр Волгоградкa",
+      "Kia центр Зеленоград",
+      "АвтоГЕРМЕС Kia",
+      "АвтоГЕРМЕС Kia Рябиновая",
+      "АвтоСпецЦентр KIA - Автомобили с пробегом",
+      "АвтоСпецЦентр KIA Марьино",
+      "Автомир KIA Крылатское (1542 Киа Москва Новые ТСК Крылатское [667] tskid79)",
+      "Автомир KIA Щелковская (1541 Киа Москва Новые ТСК Щелковка [262] tskid30)",
+      "ИРБИС Kia Север",
+      "Интер Авто KIA",
+      "Рольф Центр KIA",
+      "У Сервиc+ KIA"
+    ]
+  },
+  {
+    "brand": "LADA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "LADA КорсГрупп Коломна",
+      "LADA Центр Кунцево",
+      "Брайт Парк LADA",
+      "ТоргМаш LADA"
+    ]
+  },
+  {
+    "brand": "LAMBORGHINI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Lamborghini - Автодом",
+      "Lamborghini МОСКВА - АВТОDOM",
+      "АВТОДОМ Lamborghini Запад",
+      "АВТОДОМ Lamborghini Сити"
+    ]
+  },
+  {
+    "brand": "LAND ROVER",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Jaguar Land Rover Рольф Ясенево",
+      "MAJOR Land Rover",
+      "Major Land Rover МКАД 47 км",
+      "Major Land Rover Новорижский"
+    ]
+  },
+  {
+    "brand": "LI AUTO",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Lixiang (Li Auto) Новорижский"
+    ]
+  },
+  {
+    "brand": "LIVAN",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "LIVAN БИЗНЕС КАР Битца",
+      "LIVAN Волгоградка",
+      "LIVAN Кунцево",
+      "LIVAN Нижегородец в Ногинске",
+      "LIVAN Шереметьево",
+      "MAJOR Livan МКАД 18",
+      "MAJOR Livan Тушино",
+      "АвтоЛидер Livan"
+    ]
+  },
+  {
+    "brand": "LYNK",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Lynk & Co Новорижский",
+      "АВИЛОН Lynk&СO"
+    ]
+  },
+  {
+    "brand": "M-HERO",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "M-HERO БорисХоф Восток",
+      "M-HERO РОЛЬФ ЯСЕНЕВО",
+      "Панавто M-HERO"
+    ]
+  },
+  {
+    "brand": "MASERATI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Maserati Москва в Барвиха Luxury Village"
+    ]
+  },
+  {
+    "brand": "MAZDA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Автомир Mazda Дмитровское ш. (1588 Мазда Москва Новые ТСК Дмитровка Омода [178] tskid78)",
+      "Автомир Mazda Ярославка (2054 Мазда Москва Новые ТСК Ярославка [98] tskid54)",
+      "РОЛЬФ Mazda Химки",
+      "РОЛЬФ Восток Mazda"
+    ]
+  },
+  {
+    "brand": "MG",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "MG Ац Береговой",
+      "MG Кунцево"
+    ]
+  },
+  {
+    "brand": "MITSUBISHI",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Mitsubishi РОЛЬФ Центр",
+      "АвтоГЕРМЕС  Mitsubishi",
+      "Автомир Mitsubishi Варшавка (1545 Митцубиши Москва Новые ТСК Варшавка [125] tskid9)",
+      "РОЛЬФ Mitsubishi Восток",
+      "РОЛЬФ Сити Mitsubishi",
+      "РОЛЬФ Химки Mitsubishi",
+      "РОЛЬФ Юг Mitsubishi",
+      "Рольф Mitsubishi Алтуфьево"
+    ]
+  },
+  {
+    "brand": "NISSAN",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Nissan Магистральный"
+    ]
+  },
+  {
+    "brand": "OMODA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Car Village Omoda Краснознаменск",
+      "Major Auto OMODA",
+      "Major Auto OMODA МКАД 47",
+      "Major OMODA Цветочный",
+      "Major OMODA Шереметьево",
+      "OMODA  Авангард Моторс",
+      "OMODA -Автолайт",
+      "OMODA АВТОДОМ Внуково",
+      "OMODA АВТОРУСЬ Лосиный Остров",
+      "OMODA Авилон",
+      "OMODA Автодин Зеленоград",
+      "OMODA Автомир Байкальская (9238 Омода Москва Новые ТСК Байкальская Мульти [169] tskid69)",
+      "OMODA Автомир Крылатское (6662 Омода Москва Новые ТСК Крылатское [667] tskid79)",
+      "OMODA Автопорт",
+      "OMODA Автопрестус",
+      "OMODA Авторусь Подольск",
+      "OMODA БалтАвтоТрейд-М  Варшавское шоссе",
+      "OMODA Бизнес Кар Каширский",
+      "OMODA ДЕАЛОН МКАД СЕВЕР",
+      "OMODA Корс Коломна",
+      "OMODA РОЛЬФ Химки",
+      "OMODA У Сервис+",
+      "Omoda DELIVERY CAR",
+      "Omoda БалтАвтоТрейд",
+      "Omoda Измайлово",
+      "Omoda Кунцево",
+      "Omoda Нижегородец Ногинск",
+      "Omoda Нижегородец Реутов",
+      "Автомир Omoda Дмитровка (4795 Омода Москва Новые ТСК Дмитровка Омода [178] tskid78)",
+      "Автомир Omoda Ярославка (4796 Омода Москва Новые ТСК Ярославка [98] tskid54)",
+      "Авторусь Omoda Бутово",
+      "Мэйджор OMODA МКАД 18",
+      "РОЛЬФ Ясенево Omoda",
+      "Техинком OMODA"
+    ]
+  },
+  {
+    "brand": "ORA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "АВИЛОН ORA",
+      "АвтоСпецЦентр ORA Внуково",
+      "Авторусь ORA Лосиный Остров"
+    ]
+  },
+  {
+    "brand": "PEUGEOT",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "PEUGEOT ТЕХИНКОМ",
+      "Кунцево Peugeot"
+    ]
+  },
+  {
+    "brand": "PORSCHE",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Porsche Центр Ленинский"
+    ]
+  },
+  {
+    "brand": "ROLLS-ROYCE",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Rolls-Royce Moscow",
+      "АВИЛОН,  Rolls-Royce Motor Cars"
+    ]
+  },
+  {
+    "brand": "SERES",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Seres  Автомир Ярославка | (9575 Серес Москва Новые ТСК Ярославка [98] tskid54)",
+      "Seres Aito Автомир Озерная | (9121 Серес Москва Новые ТСК Озерная [163] tskid33)",
+      "Seres FAVORIT MOTORS",
+      "БорисХоф SERES Каширский",
+      "МБ РУС Seres Ленинградский",
+      "Панавто Seres Запад",
+      "Панавто Жуковка Seres",
+      "Панавто Запад Seres Aito",
+      "Панавто Сити Seres Aito"
+    ]
+  },
+  {
+    "brand": "SKODA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "ŠKODA РОЛЬФ Центр",
+      "АЦ Škoda-Кунцево",
+      "Автомир Богемия Skoda Ярославка (1868 Шкода Москва Новые ТСК Ярославка [98] tskid54)",
+      "РОЛЬФ Вешки Skoda"
+    ]
+  },
+  {
+    "brand": "SOLARIS",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Solaris Новорижский",
+      "SOLARIS ТЕХИНКОМ",
+      "Solaris Автомир Байкальская (9247 Солярис Москва Новые ТСК Байкальская Джили [617] tskid88)",
+      "Solaris Автомир Дмитровка (9246 Солярис Москва Новые ТСК Дмитровка Хавейл [177] tskid67)",
+      "Solaris ВАМ АВТО",
+      "Solaris Кунцево",
+      "АВИЛОН Solaris Волгоградский проспект",
+      "АвтоГЕРМЕС Solaris МКАД 44",
+      "АвтоГЕРМЕС Solaris ш.Энтузиастов",
+      "АвтоГермес Solaris Балашиха",
+      "АвтоСпецЦентр Solaris Марьино",
+      "АвтоСпецЦентр Solaris Север",
+      "Автодин SOLARIS",
+      "Автодом Solaris Восток"
+    ]
+  },
+  {
+    "brand": "SWM",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "SWM | PELETON",
+      "SWM Варшавка",
+      "SWM Кунцево",
+      "АвтоГермес SWM МКАД"
+    ]
+  },
+  {
+    "brand": "TANK",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major TANK МКАД 47 км",
+      "Major TANK Новорижский",
+      "Major TANK Шереметьево",
+      "TANK Автомир Щелковская (6039 ТЭНК Москва Новые ТСК Щелковка [262] tskid30)",
+      "TANK Центр Люберцы",
+      "Tank Borishof",
+      "Tank Borishof M2",
+      "АВИЛОН TANK",
+      "АвтоСпецЦентр TANK Внуково",
+      "Авторусь TANK"
+    ]
+  },
+  {
+    "brand": "TOYOTA",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "РОЛЬФ Волгоградский Toyota",
+      "РОЛЬФ Центр Ясенево Toyota|Lexus"
+    ]
+  },
+  {
+    "brand": "VOLKSWAGEN",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Volkswagen Новорижский",
+      "АВИЛОН Volkswagen",
+      "Авторусь Volkswagen Подольск",
+      "РОЛЬФ Юг Volkswagen",
+      "ТЦ Кунцево Volkswagen"
+    ]
+  },
+  {
+    "brand": "VOLVO",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "VOLVO CAR M1"
+    ]
+  },
+  {
+    "brand": "VOYAH",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "AA VOYAH  МОСКВА",
+      "VOYAH БорисХоф Юг",
+      "VOYAH Рублевский",
+      "VOYAH Шереметьево Центр",
+      "Voyah FAVORIT MOTORS",
+      "Voyah Мэйджор Север",
+      "Авилон Voyah",
+      "БорисХоф VOYAH",
+      "Панавто VOYAH",
+      "Панавто VOYAH Жуковка",
+      "РОЛЬФ Ясенево Voyah"
+    ]
+  },
+  {
+    "brand": "WEY",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major WEY МКАД 47 км",
+      "Major WEY Новорижский",
+      "Major WEY Шереметьево",
+      "WEY Автомир Щелковская (8258 ТЭНК Москва Новые ТСК Щелковка [262] Вей tskid30)",
+      "АВИЛОН WEY",
+      "АвтоСпецЦентр WEY Внуково",
+      "Авторусь Wey Лосиный Остров"
+    ]
+  },
+  {
+    "brand": "XCITE",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "XCITE Зеленоград",
+      "Xcite Кунцево"
+    ]
+  },
+  {
+    "brand": "ZEEKR",
+    "image": "",
+    "gk": [],
+    "dealers": [
+      "Major Zeekr Новорижский"
+    ]
+  }
+]

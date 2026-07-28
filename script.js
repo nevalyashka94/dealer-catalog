@@ -289,13 +289,17 @@ async function loadData() {
 // Search
 // ======================================
 
+// ======================================
+// Search
+// ======================================
+
 search.addEventListener("input", function () {
 
     const value = this.value
         .trim()
         .toLowerCase();
 
-    if (value === "") {
+    if (!value) {
 
         render(brands);
 
@@ -303,11 +307,43 @@ search.addEventListener("input", function () {
 
     }
 
-    const filtered = brands.filter(item =>
-        item.brand
+    const filtered = brands.filter(item => {
+
+        // поиск по бренду
+        if (item.brand.toLowerCase().includes(value)) {
+
+            return true;
+
+        }
+
+        // поиск по дилерам
+        return item.dealers.some(dealer => {
+
+            // Старый формат
+            if (typeof dealer === "string") {
+
+                return dealer
+                    .toLowerCase()
+                    .includes(value);
+
+            }
+
+            // Новый формат
+            return [
+
+                dealer.name || "",
+                dealer.address || "",
+                dealer.website || "",
+                dealer.map || ""
+
+            ]
+            .join(" ")
             .toLowerCase()
-            .includes(value)
-    );
+            .includes(value);
+
+        });
+
+    });
 
     render(filtered);
 

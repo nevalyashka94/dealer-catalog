@@ -87,54 +87,110 @@ function createCard(item){
 
     card.className = "brand-card";
 
+    const dealersHTML = item.dealers.map(dealer => {
+
+        // Старый формат
+        if (typeof dealer === "string") {
+
+            return `
+            <div class="dealer">
+                <div class="dealer-name">${dealer}</div>
+            </div>
+            `;
+
+        }
+
+        // Новый формат
+        return `
+        <div class="dealer">
+
+            <div class="dealer-name">
+                ${dealer.name || ""}
+            </div>
+
+            ${
+                dealer.address
+                ? `<div class="dealer-address">${dealer.address}</div>`
+                : ""
+            }
+
+            <div class="dealer-links">
+
+                ${
+                    dealer.website
+                    ? `
+                    <a
+                        href="${dealer.website}"
+                        target="_blank"
+                        rel="noopener"
+                        class="dealer-link">
+                        🌐 Сайт
+                    </a>
+                    `
+                    : ""
+                }
+
+                ${
+                    dealer.map
+                    ? `
+                    <a
+                        href="${dealer.map}"
+                        target="_blank"
+                        rel="noopener"
+                        class="dealer-link">
+                        🗺 Карта
+                    </a>
+                    `
+                    : ""
+                }
+
+            </div>
+
+        </div>
+        `;
+
+    }).join("");
+
     card.innerHTML = `
 
 <div class="brand-header">
 
-<div class="brand-name">
+    <div class="brand-name">
 
-<div class="brand-logo">
+        <div class="brand-logo">
 
-<img
-src="${logoPath(item.brand)}"
-alt="${item.brand}"
-onerror="this.src='images/brands/default.svg'">
+            <img
+                src="${logoPath(item.brand)}"
+                alt="${item.brand}"
+                onerror="this.src='images/brands/default.svg'">
 
-</div>
+        </div>
 
-<div class="brand-title">
+        <div class="brand-title">
 
-<h3>${item.brand}</h3>
+            <h3>${item.brand}</h3>
 
-<div class="brand-count">
+            <div class="brand-count">
 
-${item.dealers.length} дилеров
+                ${item.dealers.length} дилеров
 
-</div>
+            </div>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
-<div class="brand-arrow">
+    <div class="brand-arrow">
 
-▼
+        ▼
 
-</div>
+    </div>
 
 </div>
 
 <div class="dealers">
 
-${item.dealers.map(dealer=>`
-
-<div class="dealer">
-
-${dealer}
-
-</div>
-
-`).join("")}
+    ${dealersHTML}
 
 </div>
 
@@ -142,7 +198,7 @@ ${dealer}
 
     card
         .querySelector(".brand-header")
-        .addEventListener("click",()=>{
+        .addEventListener("click", () => {
 
             card.classList.toggle("active");
 
@@ -150,6 +206,7 @@ ${dealer}
 
     return card;
 
+}
 }
 
 // ======================================

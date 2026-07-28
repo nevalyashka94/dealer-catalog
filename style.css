@@ -727,3 +727,71 @@ body{
 }
 
 }
+
+/* ==========================
+   Dealer Info
+========================== */
+
+.dealer{
+
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+
+}
+
+.dealer-name{
+
+    font-weight:600;
+    font-size:16px;
+
+}
+
+.dealer-address{
+
+    font-size:14px;
+    opacity:.8;
+    line-height:1.5;
+
+}
+
+.dealer-links{
+
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:4px;
+
+}
+
+.dealer-link{
+
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+
+    padding:6px 12px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    background:rgba(0,0,0,.06);
+
+    transition:.2s;
+
+    font-size:14px;
+
+}
+
+.dealer-link:hover{
+
+    transform:translateY(-1px);
+
+}
+
+body.dark .dealer-link{
+
+    background:rgba(255,255,255,.08);
+
+}

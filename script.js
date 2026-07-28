@@ -213,15 +213,15 @@ function createCard(item){
 // Render
 // ======================================
 
-function render(data){
+function render(data) {
 
     catalog.innerHTML = "";
 
     updateStats(data);
 
-    if(data.length===0){
+    if (!data.length) {
 
-        catalog.innerHTML=`
+        catalog.innerHTML = `
 
 <div class="dealer">
 
@@ -235,14 +235,19 @@ function render(data){
 
     }
 
-    data.forEach(item=>{
+    const fragment = document.createDocumentFragment();
 
-        catalog.appendChild(
+    data.forEach(item => {
 
+        fragment.appendChild(
             createCard(item)
-
         );
 
+    });
+
+    catalog.appendChild(fragment);
+
+}
     });
 
 }// ======================================
@@ -261,8 +266,37 @@ async function loadData() {
 
         const data = await response.json();
 
-        brands = data.sort((a, b) =>
-            a.brand.localeCompare(b.brand)
+        brands = data.map(item => ({
+
+            brand: item.brand || "",
+
+            dealers: (item.dealers || []).map(dealer => {
+
+                // Старый формат
+                if (typeof dealer === "string") {
+                    return dealer;
+                }
+
+                // Новый формат
+                return {
+                    name: dealer.name || "",
+                    address: dealer.address || "",
+                    website: dealer.website || "",
+                    map: dealer.map || ""
+                };
+
+            })
+
+        }));
+
+        brands.sort((a, b) =>
+            a.brand.localeCompare(
+                b.brand,
+                "ru",
+                {
+                    sensitivity: "base"
+                }
+            )
         );
 
         render(brands);
@@ -284,10 +318,6 @@ async function loadData() {
     }
 
 }
-
-// ======================================
-// Search
-// ======================================
 
 // ======================================
 // Search

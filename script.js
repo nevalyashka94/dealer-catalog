@@ -1,5 +1,5 @@
 // ======================================
-// Dealer Catalog v2.0
+// Dealer Catalog v2.1
 // ======================================
 
 const catalog = document.getElementById("catalog");
@@ -20,20 +20,19 @@ let brands = [];
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme === "dark") {
-
     document.body.classList.add("dark");
-
-    themeIcon.textContent = "☀️";
-
+    if (themeIcon) themeIcon.textContent = "☀️";
 }
 
-themeButton.addEventListener("click", () => {
+themeButton?.addEventListener("click", () => {
 
     document.body.classList.toggle("dark");
 
     const dark = document.body.classList.contains("dark");
 
-    themeIcon.textContent = dark ? "☀️" : "🌙";
+    if (themeIcon) {
+        themeIcon.textContent = dark ? "☀️" : "🌙";
+    }
 
     localStorage.setItem(
         "theme",
@@ -46,14 +45,16 @@ themeButton.addEventListener("click", () => {
 // Logo
 // ======================================
 
-function logoPath(name){
+function logoPath(name) {
 
-    return "images/brands/" +
+    return (
+        "images/brands/" +
         name
             .toLowerCase()
-            .replace(/\s+/g,"-")
-            .replace(/\./g,"")
-            + ".svg";
+            .replace(/\s+/g, "-")
+            .replace(/\./g, "")
+            + ".svg"
+    );
 
 }
 
@@ -61,13 +62,13 @@ function logoPath(name){
 // Statistics
 // ======================================
 
-function updateStats(data){
+function updateStats(data) {
 
     brandCount.textContent = data.length;
 
     let dealers = 0;
 
-    data.forEach(item=>{
+    data.forEach(item => {
 
         dealers += item.dealers.length;
 
@@ -81,77 +82,73 @@ function updateStats(data){
 // Card
 // ======================================
 
-function createCard(item){
+function createCard(item) {
 
     const card = document.createElement("div");
-
     card.className = "brand-card";
 
     const dealersHTML = item.dealers.map(dealer => {
 
-        // Старый формат
         if (typeof dealer === "string") {
 
             return `
-            <div class="dealer">
-                <div class="dealer-name">${dealer}</div>
-            </div>
+                <div class="dealer">
+                    <div class="dealer-name">${dealer}</div>
+                </div>
             `;
 
         }
 
-        // Новый формат
         return `
-        <div class="dealer">
+            <div class="dealer">
 
-            <div class="dealer-name">
-                ${dealer.name || ""}
-            </div>
-
-            ${
-                dealer.address
-                ? `<div class="dealer-address">${dealer.address}</div>`
-                : ""
-            }
-
-            <div class="dealer-links">
+                <div class="dealer-name">
+                    ${dealer.name || ""}
+                </div>
 
                 ${
-                    dealer.website
-                    ? `
-                    <a
-                        href="${dealer.website}"
-                        target="_blank"
-                        rel="noopener"
-                        class="dealer-link">
-                        🌐 Сайт
-                    </a>
-                    `
-                    : ""
+                    dealer.address
+                        ? `<div class="dealer-address">${dealer.address}</div>`
+                        : ""
                 }
 
-                ${
-                    dealer.map
-                    ? `
-                    <a
-                        href="${dealer.map}"
-                        target="_blank"
-                        rel="noopener"
-                        class="dealer-link">
-                        🗺 Карта
-                    </a>
-                    `
-                    : ""
-                }
+                <div class="dealer-links">
+
+                    ${
+                        dealer.website
+                            ? `
+                            <a
+                                href="${dealer.website}"
+                                target="_blank"
+                                rel="noopener"
+                                class="dealer-link">
+                                🌐 Сайт
+                            </a>
+                            `
+                            : ""
+                    }
+
+                    ${
+                        dealer.map
+                            ? `
+                            <a
+                                href="${dealer.map}"
+                                target="_blank"
+                                rel="noopener"
+                                class="dealer-link">
+                                🗺 Карта
+                            </a>
+                            `
+                            : ""
+                    }
+
+                </div>
 
             </div>
-
-        </div>
         `;
 
     }).join("");
-
-    card.innerHTML = `
+        card.innerHTML = `
 
 <div class="brand-header">
 
@@ -171,9 +168,7 @@ function createCard(item){
             <h3>${item.brand}</h3>
 
             <div class="brand-count">
-
                 ${item.dealers.length} дилеров
-
             </div>
 
         </div>
@@ -181,9 +176,7 @@ function createCard(item){
     </div>
 
     <div class="brand-arrow">
-
         ▼
-
     </div>
 
 </div>
@@ -207,7 +200,6 @@ function createCard(item){
     return card;
 
 }
-}
 
 // ======================================
 // Render
@@ -222,14 +214,10 @@ function render(data) {
     if (!data.length) {
 
         catalog.innerHTML = `
-
-<div class="dealer">
-
-Ничего не найдено
-
-</div>
-
-`;
+            <div class="dealer">
+                Ничего не найдено
+            </div>
+        `;
 
         return;
 
@@ -246,9 +234,6 @@ function render(data) {
     });
 
     catalog.appendChild(fragment);
-
-}
-    });
 
 }// ======================================
 // Load JSON
@@ -269,20 +254,31 @@ async function loadData() {
         brands = data.map(item => ({
 
             brand: item.brand || "",
+            image: item.image || "",
+            gk: item.gk || [],
 
             dealers: (item.dealers || []).map(dealer => {
 
                 // Старый формат
                 if (typeof dealer === "string") {
-                    return dealer;
+
+                    return {
+                        name: dealer,
+                        address: "",
+                        website: "",
+                        map: ""
+                    };
+
                 }
 
                 // Новый формат
                 return {
+
                     name: dealer.name || "",
                     address: dealer.address || "",
                     website: dealer.website || "",
                     map: dealer.map || ""
+
                 };
 
             })
@@ -301,7 +297,9 @@ async function loadData() {
 
         render(brands);
 
-    } catch (error) {
+    }
+
+    catch (error) {
 
         console.error(error);
 
@@ -309,7 +307,7 @@ async function loadData() {
 
 <div class="dealer">
 
-❌ Ошибка загрузки данных
+❌ Ошибка загрузки dealers.json
 
 </div>
 
@@ -317,17 +315,13 @@ async function loadData() {
 
     }
 
-}
-
-// ======================================
+}// ======================================
 // Search
 // ======================================
 
 search.addEventListener("input", function () {
 
-    const value = this.value
-        .trim()
-        .toLowerCase();
+    const value = this.value.trim().toLowerCase();
 
     if (!value) {
 
@@ -339,37 +333,20 @@ search.addEventListener("input", function () {
 
     const filtered = brands.filter(item => {
 
-        // поиск по бренду
         if (item.brand.toLowerCase().includes(value)) {
 
             return true;
 
         }
 
-        // поиск по дилерам
         return item.dealers.some(dealer => {
 
-            // Старый формат
-            if (typeof dealer === "string") {
-
-                return dealer
-                    .toLowerCase()
-                    .includes(value);
-
-            }
-
-            // Новый формат
-            return [
-
-                dealer.name || "",
-                dealer.address || "",
-                dealer.website || "",
-                dealer.map || ""
-
-            ]
-            .join(" ")
-            .toLowerCase()
-            .includes(value);
+            return (
+                (dealer.name || "").toLowerCase().includes(value) ||
+                (dealer.address || "").toLowerCase().includes(value) ||
+                (dealer.website || "").toLowerCase().includes(value) ||
+                (dealer.map || "").toLowerCase().includes(value)
+            );
 
         });
 
